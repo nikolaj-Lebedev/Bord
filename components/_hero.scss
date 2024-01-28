@@ -1,0 +1,48 @@
+.hero { 
+    background: url(../foto/arnaud-mesureur-17OxKyThYPo-unsplash\ 1.png) no-repeat;
+    filter: drop-shadow(2px 4px 6px black);
+    background-size: cover;
+    height: 100vh;
+    min-height: 650px;
+    color:#FFFFFF;
+    position: relative;
+
+    &:before {
+        content: url("../foto/crug.png");
+        position: absolute;
+        bottom: -18px;
+        right: 2%;
+    }
+
+    &:after {
+        content: url("../foto/crug.png");
+        position: absolute;
+        bottom: -18px;
+        right: 2%;
+    }
+
+}
+
+.hero__title-section {
+    width: 43%;
+}
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 24px 0 45px 0;
+}
+
+.hero__main-title {
+    font-size: 48px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.hero__title-desc {
+    font-size: 21px;
+    margin-bottom: 28px;
+}
