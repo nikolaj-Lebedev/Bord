@@ -1,0 +1,29 @@
+.btn {
+    font-size: rem(19px);
+    font-weight: bold;
+    padding: rem(18px) rem(35px);
+    text-transform: uppercase;
+    border-radius: rem(100px);
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+
+    &--theme--yellow {
+        background:#FEDB3F;
+        color:#000000;
+        &:hover {
+            color: black;
+            background: #edc308;
+        }
+    }
+    
+    &--theme--transparent {
+        background:transparent;
+        color: #fff;
+        text-transform: none;
+        &:hover {
+            color: #edc308;
+        }
+}
+}

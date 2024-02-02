@@ -1,0 +1,151 @@
+.features  {
+    display: flex;
+}
+
+.features__item {
+    margin-right: rem(46px);
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+//icon serf//
+
+.leaf__icon__serf {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.leaf__icon__serf:after {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png)  -10px -10px;;
+
+}
+
+.leaf__icon__serf:hover:after {
+    opacity: 0;
+}
+
+.leaf__icon__serf:hover:before {
+    opacity: 1;
+}
+
+.leaf__icon__serf:before {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png) -71px -71px;;
+    opacity: 0;
+    transition: .3s;
+}
+
+
+//icon saw//
+
+.leaf__icon__saw {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.leaf__icon__saw:after {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png)  -71px -10px;
+
+}
+
+.leaf__icon__saw:hover:after {
+    opacity: 0;
+}
+
+.leaf__icon__saw:hover:before {
+    opacity: 1;
+}
+
+.leaf__icon__saw:before {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png) -10px -71px;
+    opacity: 0;
+    transition: .3s;
+}
+
+////icon car//
+.leaf__icon__car {
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.leaf__icon__car:after {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png)  -132px -71px;
+
+}
+
+.leaf__icon__car:hover:after {
+    opacity: 0;
+}
+
+.leaf__icon__car:hover:before {
+    opacity: 1;
+}
+
+.leaf__icon__car:before {
+    content: "";
+    margin-right: 18px;
+    display: block;
+    position: absolute;
+    top: 72%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 41px; 
+    height: 41px;
+    background: url(../foto/sprites.png) -132px -10px;
+    opacity: 0;
+    transition: .3s;
+}
