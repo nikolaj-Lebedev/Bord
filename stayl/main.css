@@ -343,7 +343,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -10px -10px;
+  background: url(../foto/sprites.png) -10px -10px;
 }
 
 .leaf__icon__serf:hover:after {
@@ -365,7 +365,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -71px -71px;
+  background: url(../foto/sprites.png) -71px -71px;
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -390,7 +390,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -71px -10px;
+  background: url(../foto/sprites.png) -71px -10px;
 }
 
 .leaf__icon__saw:hover:after {
@@ -412,7 +412,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -10px -71px;
+  background: url(../foto/sprites.png) -10px -71px;
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -437,7 +437,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -132px -71px;
+  background: url(../foto/sprites.png) -132px -71px;
 }
 
 .leaf__icon__car:hover:after {
@@ -459,7 +459,7 @@ img {
           transform: translate(-50%, -50%);
   width: 41px;
   height: 41px;
-  background: url(/foto/sprites.png) -132px -10px;
+  background: url(../foto/sprites.png) -132px -10px;
   opacity: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
