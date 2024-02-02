@@ -1,8 +1,8 @@
 .interective-avatar {
-    width: 80px;
-    height: 80px;
-    //border: 6px solid #0f5a47;
-    border-color: 6px solid transparent;
+    width: rem(80px);
+    height: rem(80px);
+    //border: rem(6px) solid #0f5a47;
+    border-color: rem(6px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -37,7 +37,7 @@
 }
 
 .reviews__swither-item{
-    margin-right: 6px;
+    margin-right: rem(6px);
     &:last-child {
         margin-right: 0;
     }

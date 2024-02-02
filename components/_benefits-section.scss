@@ -4,7 +4,12 @@
     &::before{
         content: url(../foto/element.png);
         position: absolute;
-        bottom: -80px;
+        bottom: rem(-80px);
         left: 0;
+        @include phones {
+            display: none;
+        }
+    
     }
+
 }

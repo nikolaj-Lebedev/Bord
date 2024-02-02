@@ -1,11 +1,17 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
 
 //colors
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
+@import "../components/media";
+@import "../components/hamburgers";
 
 //z-indexes
 
@@ -20,6 +26,7 @@ $z-fixed-menu: 100;
 //components
 @import "../components/hero";
 @import "../components/header";
+@import "../components/menu";
 @import "../components/features";
 @import "../components/feature";
 @import "../components/btn";

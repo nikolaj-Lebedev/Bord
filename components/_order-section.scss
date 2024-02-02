@@ -1,9 +1,16 @@
 .oreder-section {
     background: url(../foto/124f6c66-b452-4900-b76c-d4942f67647c.jpg) no-repeat;
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(rem(2px) rem(4px) rem(6px) black);
     background-size: cover;
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     color:#FFFFFF;
     position: relative;
+    @include tablets {
+        background-position: center,  
+    } 
+
+    @include phones {
+  
+    }
 }
