@@ -59,10 +59,11 @@
 
 }
 .hero__container {
+    justify-content: space-around; //-пришлось дбавить
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    //justify-content: space-between;//-пришлось убрать
+    height: 115%; //добавил 15% было 100
     padding: rem(24px) 0 rem(45px) 0;
 
     @include tablets {
