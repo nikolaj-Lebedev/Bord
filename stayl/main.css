@@ -196,7 +196,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 115%;
+  height: 100%;
   padding: 1.3333333333rem 0 2.5rem 0;
 }
 @media screen and (max-width: 768px) {
@@ -236,9 +236,21 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: aqua;
+  }
 }
 
 .phone-number {
@@ -546,15 +558,6 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #000;
-}
-
-.header {
-  height: 5.5555555556rem;
-  background: #1968B1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 5%;
 }
 
 .headline {
