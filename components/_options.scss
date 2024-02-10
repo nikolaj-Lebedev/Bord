@@ -1,0 +1,68 @@
+.options {
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: rem(52px);
+    margin-top: -15%;
+    padding: rem(15px) rem(5px);
+    color: white;
+    text-align: -webkit-center;
+    @include tablets{
+        display: none;
+    }
+    &:hover{
+        background-color: rgb(23, 8, 192);
+        .parametrs {
+            background-color: #FFFFFF;
+            color: black;
+            height: rem(291px);
+            width: rem(273px);
+            position: absolute;
+            top: 0%;
+            left: 100%;
+            border-radius: 2%;
+            visibility: visible;
+    
+    
+    }
+    &:before { content: attr(parametrs);
+    color: aqua;
+    }
+}
+
+
+.span.options{
+    position: absolute;
+}
+
+.parametrs {
+    background-color: black;
+    height: rem(291px);
+    width: rem(273px);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    border-radius: 2%;
+    visibility: hidden;
+    &:hover{
+        content: "";
+        visibility: visible;
+        z-index: 10;
+    }
+}
+
+.parametrs__option{
+    justify-content: space-around;
+    display: flex;
+    padding: rem(13px) rem(7px);
+}
+
+
+.parametrs::after{
+    content: "";
+    visibility: visible;
+    z-index: 10;
+}
+.options:hover.parametrs {
+    visibility: visible;
+    opacity: 1;
+}}

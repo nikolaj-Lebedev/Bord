@@ -64,8 +64,8 @@ justify-content: space-around; //-пришлось дбавить
     flex-direction: column;
     //justify-content: space-between;//-пришлось убрать
     
-    height: 100%; //добавил 15% было 100
-    padding: rem(24px) 0 rem(45px) 0;
+    height: 86%; //добавил 15% было 100
+    padding: 7.333333rem 0 2.5rem 0;
 
     @include tablets {
         background: none;
@@ -79,7 +79,7 @@ justify-content: space-around; //-пришлось дбавить
     margin-bottom: rem(15px);
     text-transform: uppercase;
     @include phones {
-        font-size: 40px;
+        font-size: rem (40px);
     }
 }
 

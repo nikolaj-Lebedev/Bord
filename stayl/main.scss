@@ -1,6 +1,6 @@
 $containerWidth: 940px;
+//$containerHeight: 652px;
 $baseFontSize: 18px;
-
 //breakpoints
 
 $tablets: 768px;
@@ -41,3 +41,6 @@ $z-fixed-menu: 100;
 @import "../components/order-section";
 @import "../components/radio";
 @import "../components/fixed-menu";
+@import "../components/catalog";
+@import "../components/burger";
+@import "../components/options";

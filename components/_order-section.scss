@@ -3,14 +3,17 @@
     filter: drop-shadow(rem(2px) rem(4px) rem(6px) black);
     background-size: cover;
     height: 100vh;
+    //height: 135vh;
     min-height: rem(650px);
     color:#FFFFFF;
     position: relative;
     @include tablets {
-        background-position: center,  
+        background-position: center;
+        height: 135vh;
     } 
 
     @include phones {
+    height: 135vh;
   
     }
 }
