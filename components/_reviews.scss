@@ -20,8 +20,6 @@
     @include tablets {
         width: rem(130px);
         height: rem(130px);
-        margin-bottom: 50px;
-        margin-top: 54px;
        
     }
 }
@@ -42,9 +40,6 @@
 .reviews__content {
     flex: 1;
     margin-left: rem(20px);
-    @include tablets{
-        margin-left: rem(0px);     
-             }
 }
 
 .reviews__title {
@@ -52,17 +47,10 @@
     font-weight: bold;
     margin-bottom: rem(22px);
     color: black;
-
 }
 
 .reviews__text {
     margin-bottom: rem(36px);
-
-    @include tablets{
-        margin-bottom: 1rem;
-     
-             }
-    
 }
 
 .reviews__autor{
@@ -74,10 +62,28 @@
 
 .section__title__reviews {
     @include tablets {
-margin-bottom: rem (33px);
-@include tablets{
-    margin-bottom: rem(15px);
- 
-         }
+margin-bottom: rem(33px);
 } 
+}
+
+.reviews-switcher__item__active {
+    border-width: rem(5px);
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 50%;
+    
+}
+
+.rreviews-switcher__item__active{
+    border-width: 5%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 50%;
+}
+
+.reviews-switcher__item {
+    margin-right: 1%; 
+    &:last-child {
+        margin-right: 0;
+    }
 }
