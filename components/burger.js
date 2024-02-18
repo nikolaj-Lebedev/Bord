@@ -1,4 +1,3 @@
-// простой способ
 let burger  = document.querySelector('.burger');
 let overlay = document.querySelector('.overlay');
 let body = document.querySelector('body');

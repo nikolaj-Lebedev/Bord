@@ -14,8 +14,8 @@
         .parametrs {
             background-color: #FFFFFF;
             color: black;
-            height: 291px;
-            width: 273px;
+            height: rem(291px);
+            width: rem(273px);
             position: absolute;
             top: 0%;
             left: 100%;
@@ -36,8 +36,8 @@
 
 .parametrs {
     background-color: black;
-    height: 291px;
-    width: 273px;
+    height: rem(291px);
+    width: rem(273px);
     position: absolute;
     top: 0%;
     left: 100%;
@@ -53,7 +53,7 @@
 .parametrs__option{
     justify-content: space-around;
     display: flex;
-    padding: 13px 7px;
+    padding: rem(13px) rem(7px);
 }
 
 

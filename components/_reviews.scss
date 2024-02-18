@@ -20,6 +20,8 @@
     @include tablets {
         width: rem(130px);
         height: rem(130px);
+        margin-bottom: 50px;
+        margin-top: 54px;
        
     }
 }
@@ -40,6 +42,9 @@
 .reviews__content {
     flex: 1;
     margin-left: rem(20px);
+    @include tablets{
+        margin-left: rem(0px);     
+             }
 }
 
 .reviews__title {
@@ -47,10 +52,17 @@
     font-weight: bold;
     margin-bottom: rem(22px);
     color: black;
+
 }
 
 .reviews__text {
     margin-bottom: rem(36px);
+
+    @include tablets{
+        margin-bottom: 1rem;
+     
+             }
+    
 }
 
 .reviews__autor{
@@ -63,5 +75,9 @@
 .section__title__reviews {
     @include tablets {
 margin-bottom: rem (33px);
+@include tablets{
+    margin-bottom: rem(15px);
+ 
+         }
 } 
 }
