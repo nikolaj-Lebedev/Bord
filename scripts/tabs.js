@@ -1,4 +1,4 @@
-$(".reviews-switcher__link").click((e) => {
+$(".reviews-switcher__link").click(e => {
     e.preventDefault();
 
     const $this = $(e.currentTarget);

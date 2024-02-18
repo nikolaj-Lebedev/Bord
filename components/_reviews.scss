@@ -2,6 +2,31 @@
     background: #F8FAF9;
     padding: rem(50px) rem(45px) rem(34px);
 }
+.reviews-switcher__item.active {
+    border: 6px solid aqua;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+.reviews-switcher__item:hover {
+border-color: aqua;
+}
+
+.reviews-switcher__item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid transparent;
+    position: relative;
+}
+
+.reviews-switcher{
+    display: flex;
+    justify-content: center;
+}
+
 
 .reviews__display-inner{
     display: flex;
