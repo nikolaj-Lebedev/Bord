@@ -79,7 +79,7 @@ justify-content: space-around; //-пришлось дбавить
     margin-bottom: rem(15px);
     text-transform: uppercase;
     @include phones {
-        font-size: 40px;
+        font-size: rem (40px);
     }
 }
 
